@@ -240,7 +240,7 @@ class CircleShape extends CustomPainter {
     // TODO: implement paint
     final paint = Paint();
     final center = Offset(size.width/2, size.height/2);
-    paint.color = Colors.deepPurple;
+    paint.color = Colors.red;
     final radius = size.width/3;
     canvas.drawCircle(center, radius, paint);
   }
